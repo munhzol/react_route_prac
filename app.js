@@ -38,6 +38,13 @@ function App() {
         <Second path="/:value/:color1/:color2"/>
       </Router>
 
+      <ul>
+        <li><Link to = "/home">Home</Link></li>
+        <li><Link to = "/4">First</Link></li>
+        <li><Link to = "/hello world">Second</Link></li>
+        <li><Link to = "/home/red/blue">Home</Link></li>
+      </ul>
+
     </div>
   );
 }
